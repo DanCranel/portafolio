@@ -5,7 +5,7 @@ export type Project = {
   title: string;
   featured: boolean;
   tags: string[];
-  repo: string;
+  repo?: string;
   live?: string;
   emoji: string;
   gradient: string;
@@ -13,6 +13,19 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    slug: "d20-heroes",
+    title: "D20 Heroes: Creator",
+    featured: true,
+    tags: ["JavaScript", "Vite", "Tailwind v4", "Capacitor", "Android"],
+    live: "https://creador-dnd-2024.vercel.app",
+    emoji: "🎲",
+    gradient: "from-purple-500/25 to-rose-500/25",
+    description: {
+      es: "Creador de personajes de rol de mesa (sistema d20, reglas 2024), mobile-first y 100% offline. Construido en JavaScript vanilla sin frameworks, con un sistema de render reactivo propio y todas las estadísticas calculadas en vivo desde una única fuente de verdad. Empaquetado para Android con Capacitor.",
+      en: "Tabletop RPG character creator (d20 system, 2024 rules), mobile-first and 100% offline. Built in vanilla JavaScript with no frameworks, featuring a custom reactive rendering system and all stats derived live from a single source of truth. Packaged for Android with Capacitor.",
+    },
+  },
   {
     slug: "tejiendo-redes",
     title: "Tejiendo Redes",

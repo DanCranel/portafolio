@@ -77,15 +77,17 @@ export default function Projects() {
                     {t.projects.live}
                   </a>
                 )}
-                <a
-                  href={p.repo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 rounded-lg border border-[var(--color-border)] bg-white/5 px-4 py-2 text-sm font-semibold text-[var(--color-text)] transition-colors hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
-                >
-                  <GithubIcon className="h-4 w-4" />
-                  {t.projects.code}
-                </a>
+                {p.repo && (
+                  <a
+                    href={p.repo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-lg border border-[var(--color-border)] bg-white/5 px-4 py-2 text-sm font-semibold text-[var(--color-text)] transition-colors hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
+                  >
+                    <GithubIcon className="h-4 w-4" />
+                    {t.projects.code}
+                  </a>
+                )}
               </div>
             </div>
           </Reveal>

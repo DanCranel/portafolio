@@ -31,6 +31,8 @@ const groups = [
       "Git",
       "GitHub",
       "Vercel",
+      "Vite",
+      "Capacitor",
       "POO",
       "Estructuras de datos",
       "Algoritmos",

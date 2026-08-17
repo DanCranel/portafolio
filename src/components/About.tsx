@@ -7,7 +7,7 @@ export default function About() {
   const { t } = useLanguage();
 
   const stats = [
-    { value: "2", label: t.about.stat1 },
+    { value: "3", label: t.about.stat1 },
     { value: "12", label: t.about.stat2 },
     { value: "8+", label: t.about.stat3 },
   ];
