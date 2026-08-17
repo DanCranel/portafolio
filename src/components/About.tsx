@@ -14,30 +14,31 @@ export default function About() {
 
   return (
     <section id="about" className="relative mx-auto max-w-6xl px-5 py-24 sm:py-32">
-      <Reveal>
-        <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)]">
-          {t.about.kicker}
-        </p>
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-          {t.about.title}
-        </h2>
-      </Reveal>
-
-      <div className="mt-10 grid gap-10 lg:grid-cols-[1.6fr_1fr] lg:items-center">
-        <Reveal delay={100} className="space-y-5 text-base leading-relaxed text-[var(--color-muted)] sm:text-lg">
-          <p>{t.about.p1}</p>
-          <p>{t.about.p2}</p>
-          <p>{t.about.p3}</p>
-        </Reveal>
+      <div className="grid gap-10 lg:grid-cols-[1.6fr_1fr] lg:items-stretch">
+        <div>
+          <Reveal>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)]">
+              {t.about.kicker}
+            </p>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+              {t.about.title}
+            </h2>
+          </Reveal>
+          <Reveal delay={100} className="mt-8 space-y-5 text-base leading-relaxed text-[var(--color-muted)] sm:text-lg">
+            <p>{t.about.p1}</p>
+            <p>{t.about.p2}</p>
+            <p>{t.about.p3}</p>
+          </Reveal>
+        </div>
 
         <Reveal delay={200} className="flex justify-center lg:justify-end">
-          <div className="group relative w-full max-w-[280px] overflow-hidden rounded-2xl border border-[var(--color-border)]">
-            <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[var(--color-bg)]/60 to-transparent" />
+          <div className="group relative w-full max-w-[340px] overflow-hidden rounded-2xl border border-[var(--color-border)]">
+            <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[var(--color-bg)]/50 to-transparent" />
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/daniel.jpg"
               alt="Daniel Morales"
-              className="aspect-[4/5] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              className="aspect-[4/5] h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105 lg:aspect-auto"
             />
           </div>
         </Reveal>
