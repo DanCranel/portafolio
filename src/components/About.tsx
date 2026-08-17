@@ -23,15 +23,15 @@ export default function About() {
         </h2>
       </Reveal>
 
-      <div className="mt-10 grid gap-12 lg:grid-cols-[1.5fr_1fr]">
+      <div className="mt-10 grid gap-10 lg:grid-cols-[1.6fr_1fr] lg:items-center">
         <Reveal delay={100} className="space-y-5 text-base leading-relaxed text-[var(--color-muted)] sm:text-lg">
           <p>{t.about.p1}</p>
           <p>{t.about.p2}</p>
           <p>{t.about.p3}</p>
         </Reveal>
 
-        <Reveal delay={200} className="flex flex-col gap-4">
-          <div className="group relative overflow-hidden rounded-2xl border border-[var(--color-border)]">
+        <Reveal delay={200} className="flex justify-center lg:justify-end">
+          <div className="group relative w-full max-w-[280px] overflow-hidden rounded-2xl border border-[var(--color-border)]">
             <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[var(--color-bg)]/60 to-transparent" />
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
@@ -40,19 +40,24 @@ export default function About() {
               className="aspect-[4/5] w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
           </div>
-          {stats.map((s) => (
-            <div
-              key={s.label}
-              className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)]/60 p-6 backdrop-blur transition-colors hover:border-[var(--color-accent)]/50"
-            >
-              <div className="text-4xl font-black text-gradient">{s.value}</div>
-              <div className="mt-1 text-sm text-[var(--color-muted)]">
-                {s.label}
-              </div>
-            </div>
-          ))}
         </Reveal>
       </div>
+
+      <Reveal delay={150} className="mt-8 grid grid-cols-3 gap-3 sm:gap-5">
+        {stats.map((s) => (
+          <div
+            key={s.label}
+            className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)]/60 p-4 text-center backdrop-blur transition-colors hover:border-[var(--color-accent)]/50 sm:p-6 sm:text-left"
+          >
+            <div className="text-3xl font-black text-gradient sm:text-4xl">
+              {s.value}
+            </div>
+            <div className="mt-1 text-xs text-[var(--color-muted)] sm:text-sm">
+              {s.label}
+            </div>
+          </div>
+        ))}
+      </Reveal>
     </section>
   );
 }
