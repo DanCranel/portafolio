@@ -4,6 +4,7 @@ export const translations = {
   es: {
     nav: {
       about: "Sobre mí",
+      experience: "Experiencia",
       skills: "Habilidades",
       projects: "Proyectos",
       contact: "Contacto",
@@ -29,6 +30,11 @@ export const translations = {
       stat1: "Apps en producción",
       stat2: "Proyectos en GitHub",
       stat3: "Tecnologías dominadas",
+    },
+    experience: {
+      title: "Experiencia",
+      kicker: "Mi trayectoria",
+      current: "Actual",
     },
     skills: {
       title: "Habilidades",
@@ -67,6 +73,7 @@ export const translations = {
   en: {
     nav: {
       about: "About",
+      experience: "Experience",
       skills: "Skills",
       projects: "Projects",
       contact: "Contact",
@@ -92,6 +99,11 @@ export const translations = {
       stat1: "Apps in production",
       stat2: "Projects on GitHub",
       stat3: "Technologies mastered",
+    },
+    experience: {
+      title: "Experience",
+      kicker: "My track record",
+      current: "Current",
     },
     skills: {
       title: "Skills",

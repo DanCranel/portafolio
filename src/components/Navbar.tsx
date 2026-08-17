@@ -5,6 +5,7 @@ import { useLanguage } from "@/i18n/LanguageProvider";
 
 const links = [
   { href: "#about", key: "about" },
+  { href: "#experience", key: "experience" },
   { href: "#skills", key: "skills" },
   { href: "#projects", key: "projects" },
   { href: "#contact", key: "contact" },
