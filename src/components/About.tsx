@@ -31,6 +31,15 @@ export default function About() {
         </Reveal>
 
         <Reveal delay={200} className="flex flex-col gap-4">
+          <div className="group relative overflow-hidden rounded-2xl border border-[var(--color-border)]">
+            <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[var(--color-bg)]/60 to-transparent" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/daniel.jpg"
+              alt="Daniel Morales"
+              className="aspect-[4/5] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+          </div>
           {stats.map((s) => (
             <div
               key={s.label}

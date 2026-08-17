@@ -38,6 +38,10 @@ export default function Hero() {
           <h2 className="mt-4 text-xl font-semibold text-[var(--color-text)]/90 sm:text-2xl">
             {t.hero.role}
           </h2>
+          <p className="mt-2 flex items-center gap-2 text-sm font-medium text-[var(--color-accent-2)]">
+            <span className="inline-block h-1 w-6 rounded-full bg-[var(--color-accent-2)]/60" />
+            {t.hero.student}
+          </p>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-[var(--color-muted)] sm:text-lg">
             {t.hero.tagline}
           </p>

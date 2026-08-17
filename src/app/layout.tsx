@@ -13,7 +13,7 @@ const siteUrl = "https://dancranel.github.io/portafolio";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Daniel Morales — Desarrollador de Software Full-Stack",
+  title: "Daniel Morales — Desarrollador Web",
   description:
     "Portafolio de Daniel Morales, desarrollador de software full-stack. Aplicaciones web con Next.js, React, TypeScript y bases sólidas en Java y estructuras de datos.",
   keywords: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Daniel Morales" }],
   creator: "Daniel Morales",
   openGraph: {
-    title: "Daniel Morales — Desarrollador de Software Full-Stack",
+    title: "Daniel Morales — Desarrollador Web",
     description:
       "Aplicaciones web reales con Next.js, React y TypeScript. Bases sólidas en Java y estructuras de datos.",
     type: "website",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Daniel Morales — Desarrollador de Software Full-Stack",
+    title: "Daniel Morales — Desarrollador Web",
     description:
       "Aplicaciones web reales con Next.js, React y TypeScript. Bases sólidas en Java y estructuras de datos.",
   },

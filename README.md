@@ -3,7 +3,7 @@
 Portafolio personal bilingüe (ES/EN) de **Daniel Morales**, desarrollador de software full-stack.
 Construido con el mismo stack moderno que uso en producción.
 
-🔗 **Demo en vivo:** _(pendiente de desplegar en Vercel)_
+🔗 **Demo en vivo:** **[portafolio-dancranel.vercel.app](https://portafolio-dancranel.vercel.app)**
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)

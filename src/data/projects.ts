@@ -55,6 +55,19 @@ export const projects: Project[] = [
     },
   },
   {
+    slug: "la-casa-del-aventurero",
+    title: "La Casa del Aventurero",
+    featured: false,
+    tags: ["HTML", "CSS", "JavaScript", "Vercel"],
+    live: "https://la-casa-del-aventurero.vercel.app",
+    emoji: "🍺",
+    gradient: "from-amber-500/25 to-yellow-500/25",
+    description: {
+      es: "Sitio web a medida para una taberna temática (negocio real): menú digital, eventos, equipo, ubicación y contacto. Diseñado y desarrollado de principio a fin, desplegado en Vercel.",
+      en: "Custom website for a themed tavern (a real business): digital menu, events, team, location and contact. Designed and developed end-to-end, deployed on Vercel.",
+    },
+  },
+  {
     slug: "venta-paquetes-orm",
     title: "Venta de Paquetes Educativos (ORM)",
     featured: false,

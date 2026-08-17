@@ -11,13 +11,14 @@ export const translations = {
     },
     hero: {
       greeting: "Hola, soy",
-      role: "Desarrollador de Software Full-Stack",
+      role: "Desarrollador Web",
+      student: "Estudiante de Ingeniería en Software · Universidad Politécnica Salesiana",
       tagline:
         "Construyo aplicaciones web reales, rápidas y accesibles con Next.js, React y TypeScript, con bases sólidas en programación orientada a objetos y estructuras de datos.",
       ctaProjects: "Ver proyectos",
       ctaContact: "Contáctame",
       available: "Disponible para trabajar",
-      basedIn: "Ecuador",
+      basedIn: "Cuenca, Ecuador",
     },
     about: {
       title: "Sobre mí",
@@ -73,13 +74,14 @@ export const translations = {
     },
     hero: {
       greeting: "Hi, I'm",
-      role: "Full-Stack Software Developer",
+      role: "Web Developer",
+      student: "Software Engineering student · Universidad Politécnica Salesiana",
       tagline:
         "I build real, fast and accessible web applications with Next.js, React and TypeScript, backed by solid fundamentals in object-oriented programming and data structures.",
       ctaProjects: "View projects",
       ctaContact: "Get in touch",
       available: "Available for work",
-      basedIn: "Ecuador",
+      basedIn: "Cuenca, Ecuador",
     },
     about: {
       title: "About me",

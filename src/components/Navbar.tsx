@@ -54,6 +54,14 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-2">
+          <a
+            href="/CV-Daniel-Morales.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden items-center gap-1.5 rounded-lg bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-2)] px-3 py-2 text-xs font-semibold text-white transition-transform hover:scale-[1.03] sm:inline-flex"
+          >
+            {t.nav.resume}
+          </a>
           <button
             onClick={toggle}
             aria-label="Toggle language"
@@ -109,6 +117,15 @@ export default function Navbar() {
                 {t.nav[l.key]}
               </a>
             ))}
+            <a
+              href="/CV-Daniel-Morales.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setOpen(false)}
+              className="mt-1 rounded-lg bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-2)] px-3 py-3 text-center text-sm font-semibold text-white"
+            >
+              {t.nav.resume}
+            </a>
           </div>
         </div>
       )}
