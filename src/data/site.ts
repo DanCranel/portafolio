@@ -1,5 +1,6 @@
 export const site = {
   name: "Daniel Morales",
+  brand: "Cranel Studios",
   email: "danielmoralestrelles96@gmail.com",
   github: "https://github.com/DanCranel",
   linkedin: "https://www.linkedin.com/in/daniel-morales-777640276/",

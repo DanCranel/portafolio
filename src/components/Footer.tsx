@@ -12,7 +12,9 @@ export default function Footer() {
     <footer className="border-t border-[var(--color-border)] bg-[var(--color-bg)]">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-5 py-8 sm:flex-row">
         <p className="text-sm text-[var(--color-muted)]">
-          © {year} {site.name}. {t.footer.rights}
+          © {year} {site.name} ·{" "}
+          <span className="font-semibold text-gradient">{site.brand}</span>.{" "}
+          {t.footer.rights}
         </p>
 
         <div className="flex items-center gap-2">

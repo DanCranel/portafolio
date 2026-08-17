@@ -106,17 +106,4 @@ export const projects: Project[] = [
       en: "Implementation of the classic Minesweeper game in Java, applying object-oriented programming: board encapsulation, state handling and recursive cell-reveal logic.",
     },
   },
-  {
-    slug: "cranel-studios",
-    title: "Cranel Studios",
-    featured: false,
-    tags: ["HTML", "CSS", "Frontend"],
-    repo: "https://github.com/DanCranel/CranelStudios",
-    emoji: "🎨",
-    gradient: "from-indigo-500/25 to-purple-500/25",
-    description: {
-      es: "Proyecto web front-end construido con HTML y CSS, enfocado en maquetación, diseño visual y experimentación con estilos y layout.",
-      en: "Front-end web project built with HTML and CSS, focused on layout, visual design and experimenting with styles and structure.",
-    },
-  },
 ];
